@@ -1,0 +1,15 @@
+n = int(input())
+pure_status = 0
+for string_count in range(1, n + 1):
+    user_input = input()
+    for char_num in range(0, len(user_input)):
+        if user_input[char_num] != "," and user_input[char_num] != "." and user_input[char_num] != "_":
+            continue
+        else:
+            pure_status += 1
+
+    if pure_status == 0:
+        print(f"{user_input} is pure.")
+    else:
+        print(f"{user_input} is not pure!")
+    pure_status = 0

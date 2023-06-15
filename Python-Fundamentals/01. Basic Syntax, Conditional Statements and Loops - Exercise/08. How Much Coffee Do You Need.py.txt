@@ -1,0 +1,13 @@
+coffee_needed = 0
+event = input()
+while event != "END":
+    if event == "coding" or event == "dog" or event == "cat" or event == "movie":
+        coffee_needed += 1
+    if event == "CODING" or event == "DOG" or event == "CAT" or event == "MOVIE":
+        coffee_needed += 2
+    event = input()
+
+if coffee_needed <= 5:
+    print(coffee_needed)
+else:
+    print("You need extra sleep")

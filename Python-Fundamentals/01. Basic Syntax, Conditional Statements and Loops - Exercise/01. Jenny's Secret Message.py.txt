@@ -1,0 +1,6 @@
+user_input = input()
+
+if user_input == "Johnny":
+    print("Hello, my love!")
+else:
+    print(f"Hello, {user_input}!")
