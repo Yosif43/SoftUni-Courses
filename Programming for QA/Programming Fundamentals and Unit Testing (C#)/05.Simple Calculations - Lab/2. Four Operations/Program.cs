@@ -1,0 +1,10 @@
+﻿float one = float.Parse(Console.ReadLine());
+float two = float.Parse(Console.ReadLine());
+double adding = one + two;
+double subtraction = one - two;
+double multiplication = one * two;
+double divide = one / two;
+Console.WriteLine($"{one:F2} + {two:F2} = {adding:F2}");
+Console.WriteLine($"{one:F2} - {two:F2} = {subtraction:F2}");
+Console.WriteLine($"{one:F2} * {two:F2} = {multiplication:F2}");
+Console.WriteLine($"{one:F2} / {two:F2} = {divide:F2}");
