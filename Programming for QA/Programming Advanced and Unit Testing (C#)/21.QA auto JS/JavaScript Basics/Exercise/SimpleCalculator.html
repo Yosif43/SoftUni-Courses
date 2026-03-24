@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+    </head>
+    <body>
+        <input id="value1" type="number" placeholder="Enter number"> 
+        <input id="value2" type="number" placeholder="Enter number">
+        <br>
+        <br>
+        <button onclick="executeSum()">+ (Sum)</button>
+        <button onclick="executeSubtract()">- (Subtract)</button>
+        <button onclick="executeMultiply()">* (Multiply)</button>
+        <button onclick="executeDivide()">/ (Divide)</button>
+        <br>
+        <p id="result"></p>
+    </body>
+
+    <script>
+        function executeSum() {
+            let firstNumber = Number(document.getElementById('value1').value);
+            let secondNumber = Number(document.getElementById('value2').value);
+            let sum = firstNumber + secondNumber;
+            document.getElementById('result').innerText = "Result: " + sum;
+
+        }
+
+        function executeSubtract() {
+            let firstNumber = Number(document.getElementById('value1').value);
+            let secondNumber = Number(document.getElementById('value2').value);
+            let result = firstNumber - secondNumber;
+            document.getElementById('result').innerText = "Result: " + result;
+
+        }
+
+        function executeMultiply() {
+            let firstNumber = Number(document.getElementById('value1').value);
+            let secondNumber = Number(document.getElementById('value2').value);
+            let result = firstNumber * secondNumber;
+            document.getElementById('result').innerText = "Result: " + result;
+
+        }
+
+        function executeDivide() {
+            let firstNumber = Number(document.getElementById('value1').value);
+            let secondNumber = Number(document.getElementById('value2').value);
+            let result = firstNumber / secondNumber;
+            document.getElementById('result').innerText = "Result: " + result;
+
+        }
+    </script>
+</html>
