@@ -1,0 +1,19 @@
+
+body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-article{
+    display: flex;
+    gap:20px;
+    width: 45%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.single-article p{
+    border-left:2px solid gainsboro;
+    padding-left: 20px;
+}
