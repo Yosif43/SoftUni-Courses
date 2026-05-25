@@ -1,0 +1,33 @@
+/* Inline-block
+article{
+    margin: 50px;
+
+    
+}
+.img-container{
+    border:8px solid black;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.portrait-view{
+    height: 600px;
+} */
+
+
+article{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    
+}
+.img-container{
+    border:8px solid black;
+    padding: 15px;  
+    height: 300px;
+}
+.img-container.portrait-view{
+    height: 700px;
+}
