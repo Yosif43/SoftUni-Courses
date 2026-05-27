@@ -1,0 +1,52 @@
+/* body{
+    background: #EEE;
+    text-align: center;
+}
+
+body > *{
+    background: white;
+}
+header, main, footer{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+main{
+    padding: 10px;
+}
+p{
+    text-transform: uppercase;
+}
+section{
+    border:2px solid black;
+    padding: 10px;
+}
+
+article, aside{
+    display: inline-block;
+    width: 32%;
+    height: 200px;
+    border:2px solid black;
+} */
+
+section{
+    display: flex;
+}
+article > *{
+    border:1px solid black;
+}
+.big-ctr{
+    width: 80%;
+}
+.work-days{
+    display: flex;
+}
+.work-days div{
+    width:20%;
+    border:1px solid black;
+    text-align: center;
+}
+
+.red{
+    background-color: red;
+}
