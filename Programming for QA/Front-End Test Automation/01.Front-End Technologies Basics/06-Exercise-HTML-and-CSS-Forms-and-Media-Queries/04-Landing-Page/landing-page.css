@@ -1,0 +1,76 @@
+header, ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+a{
+    text-decoration: none;
+}
+.header-texts h2{
+    font-size: 32px;
+    margin: 0;
+    color:blueviolet
+}
+.header-texts p{
+    margin: 0;
+    text-align: center;
+}
+
+.need-website{
+    width: 60%;
+    margin: auto;
+    display: flex;    
+    justify-content: space-around;
+    padding: 60px;
+}
+.content-part{
+    padding: 30px;
+}
+.content-part h3{
+    font-size: 30px;
+}
+
+.team-members article{
+    border:2px solid red;
+    width: 30%;
+}
+.team-members{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 60%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.team-members article{
+    margin: 12px;
+}
+.img-ctr{
+    text-align: center;
+}
+.img-ctr img{
+    width: 40%;
+    border-radius: 50%;
+}
+.newsletter-ctr{
+    padding: 20px 10px;
+    background: purple;
+}
+.sing-up-form{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.sing-up-form h3{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.sing-up-form hr{
+    width: 10%;
+    border:1px solid black;
+}
